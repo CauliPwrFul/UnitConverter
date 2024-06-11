@@ -1,0 +1,93 @@
+body {
+    margin: 2em;
+}
+/* Styling for the upper section of the converter tool*/
+
+.container {
+    color: white;
+    text-align: center;
+    
+}
+.main-el {
+    background-color: #6943FF;
+    padding-top: 5px;
+}
+
+.main-el h1 {
+    font-size: 30px;
+}
+
+#unit-el {
+    display: block; 
+    width: 80px; 
+    margin: 0 auto;
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background: none;
+    border: 1px solid #B295FF;
+    border-radius: 5px;
+    padding: 10px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+
+#convert-btn {
+    padding: 5px 20px; 
+    color: #3D3D3D; 
+    width: 100px;
+    border: 1px solid #B295FF;
+    border-radius: 5px;
+    background: white;
+    margin: 1em; 
+}
+
+#info-el {
+    font-size: x-small;
+    color: orange;
+    font-weight: lighter;
+}
+
+/* Styling for the lower section of the converter tool*/
+.conversion-el {
+    background-color: #1F2937;
+    display: flexbox;
+    flex-direction: column;
+    gap: 5px;
+    padding: 1px;
+    
+}
+
+.conversion-el h2 {
+    color: #CCC1FF;;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.conversion-el > div {
+    background-color: #273549; 
+    color: #5A537B;
+    height: fit-content;
+    padding: 5px 5px 30px;
+    margin: 20px;
+    border-radius: 5px;
+    
+}
+
+#length-conv {
+    color: white;
+    font-size: 12px;
+    font-weight: 50;
+}
+
+#volume-conv {
+    color: white;
+    font-size: 12px;
+    font-weight: 50;
+}
+
+#mass-conv {
+    color: white;
+    font-size: 12px;
+    font-weight: 50;
+}
